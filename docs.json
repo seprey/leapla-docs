@@ -164,13 +164,5 @@
       "label": "Open de app",
       "href": "https://app.leapla.co"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude"
-    ]
   }
 }
