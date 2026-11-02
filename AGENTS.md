@@ -11,10 +11,12 @@ This repository is the user documentation of Leapla (docs.leapla.co), built with
 
 ## Writing
 
-- Dutch, informal "je". Short sentences, one idea per sentence.
+- Every page exists in Dutch and in English, with the same content (agreed with Seppe on 2 November 2026). Dutch is the default and lives at the root (`features/calendar.mdx` is `/features/calendar`); English lives under `en/` with the same file name (`/en/features/calendar`). The language switcher only finds the other language when both files have the same name.
+- Addresses (file and folder names) are always English, also for the Dutch pages. A page that moves keeps its old address working through `redirects` in `docs.json`.
+- Dutch: informal "je". English: plain, "you". Short sentences, one idea per sentence. Button names are the ones the app shows in that language.
 - Bold for what is on the screen: klik op **Instellingen**.
 - Every page has `title`, `description` and a Lucide `icon` in its front matter.
-- The order of the menu is in `docs.json`, under `navigation.languages[0].groups`.
+- The order of the menu is in `docs.json`, under `navigation.languages`: `[0]` is Dutch, `[1]` English. Change both.
 
 ## Terms
 

@@ -5,8 +5,9 @@ De handleiding van Leapla, voor wie de app gebruikt: docs.leapla.co. Gemaakt met
 | Bestand | Pagina |
 |---|---|
 | `index.mdx` | Welkom |
-| `aan-de-slag.mdx` | Aan de slag |
-| `onderdelen/<naam>.mdx` | Home, Inbox, Taken, Agenda, Geld, Papieren, Docs, Gedeeld, Apla |
+| `getting-started.mdx` | Aan de slag |
+| `features/<name>.mdx` | Home, Inbox, Taken, Agenda, Geld, Papieren, Docs, Gedeeld, Apla (home, inbox, tasks, calendar, money, papers, docs, shared, apla) |
+| `en/…` | The same pages in English, with the same file names |
 | `docs.json` | Naam, kleuren, lettertype (Sora), menu |
 
 **Deze repo is openbaar.** Er komt alleen tekst voor gebruikers in, nooit interne notities.

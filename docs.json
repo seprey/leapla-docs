@@ -32,32 +32,126 @@
     "languages": [
       {
         "language": "nl",
+        "navbar": {
+          "links": [
+            {
+              "label": "leapla.co",
+              "href": "https://leapla.co"
+            }
+          ],
+          "primary": {
+            "type": "button",
+            "label": "Open de app",
+            "href": "https://app.leapla.co"
+          }
+        },
         "groups": [
           {
             "group": "Begin hier",
             "pages": [
               "index",
-              "aan-de-slag"
+              "getting-started"
             ]
           },
           {
             "group": "Onderdelen",
             "pages": [
-              "onderdelen/home",
-              "onderdelen/inbox",
-              "onderdelen/taken",
-              "onderdelen/agenda",
-              "onderdelen/geld",
-              "onderdelen/papieren",
-              "onderdelen/docs",
-              "onderdelen/gedeeld",
-              "onderdelen/apla"
+              "features/home",
+              "features/inbox",
+              "features/tasks",
+              "features/calendar",
+              "features/money",
+              "features/papers",
+              "features/docs",
+              "features/shared",
+              "features/apla"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "navbar": {
+          "links": [
+            {
+              "label": "leapla.co",
+              "href": "https://leapla.co"
+            }
+          ],
+          "primary": {
+            "type": "button",
+            "label": "Open the app",
+            "href": "https://app.leapla.co"
+          }
+        },
+        "groups": [
+          {
+            "group": "Start here",
+            "pages": [
+              "en/index",
+              "en/getting-started"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "en/features/home",
+              "en/features/inbox",
+              "en/features/tasks",
+              "en/features/calendar",
+              "en/features/money",
+              "en/features/papers",
+              "en/features/docs",
+              "en/features/shared",
+              "en/features/apla"
             ]
           }
         ]
       }
     ]
   },
+  "redirects": [
+    {
+      "source": "/aan-de-slag",
+      "destination": "/getting-started"
+    },
+    {
+      "source": "/onderdelen/home",
+      "destination": "/features/home"
+    },
+    {
+      "source": "/onderdelen/inbox",
+      "destination": "/features/inbox"
+    },
+    {
+      "source": "/onderdelen/taken",
+      "destination": "/features/tasks"
+    },
+    {
+      "source": "/onderdelen/agenda",
+      "destination": "/features/calendar"
+    },
+    {
+      "source": "/onderdelen/geld",
+      "destination": "/features/money"
+    },
+    {
+      "source": "/onderdelen/papieren",
+      "destination": "/features/papers"
+    },
+    {
+      "source": "/onderdelen/docs",
+      "destination": "/features/docs"
+    },
+    {
+      "source": "/onderdelen/gedeeld",
+      "destination": "/features/shared"
+    },
+    {
+      "source": "/onderdelen/apla",
+      "destination": "/features/apla"
+    }
+  ],
   "navbar": {
     "links": [
       {
