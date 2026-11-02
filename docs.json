@@ -1,53 +1,74 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "maple",
+  "name": "Leapla",
+  "description": "Hoe Leapla werkt: je dag, je bedrijf en wat je deelt, op één plek.",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#111111",
+    "light": "#F2F2F2",
+    "dark": "#111111"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+  "appearance": {
+    "default": "dark"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Sora",
+      "weight": 600,
+      "source": "/fonts/sora-latin-600.woff2",
+      "format": "woff2"
     }
   },
+  "icons": {
+    "library": "lucide"
+  },
+  "favicon": "/favicon.svg",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://leapla.co"
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "nl",
+        "groups": [
+          {
+            "group": "Begin hier",
+            "pages": [
+              "index",
+              "aan-de-slag"
+            ]
+          },
+          {
+            "group": "Onderdelen",
+            "pages": [
+              "onderdelen/home",
+              "onderdelen/inbox",
+              "onderdelen/taken",
+              "onderdelen/agenda",
+              "onderdelen/geld",
+              "onderdelen/papieren",
+              "onderdelen/docs",
+              "onderdelen/gedeeld",
+              "onderdelen/apla"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "label": "leapla.co",
+        "href": "https://leapla.co"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Open de app",
+      "href": "https://app.leapla.co"
     }
   },
   "contextual": {
@@ -55,18 +76,7 @@
       "copy",
       "view",
       "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "claude"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }

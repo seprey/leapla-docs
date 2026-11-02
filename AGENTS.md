@@ -1,37 +1,21 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> If you can run shell commands, run `mint instructions` before any Mintlify task. It prints current guidance for this CLI version. Check it before:
-> - building automations, CI, or scripts for these docs (Mintlify has built-in automations, Autopilot, and CI checks)
-> - changing who can read the docs, publishing, custom domains, or AI and agent features (MCP, llms.txt, skill.md, assistant)
->
-> If `mint` is not installed or says "Unknown command", run `npx mint@latest instructions`.
-> For broader Mintlify product knowledge, install the Mintlify skill: `npx skills add https://mintlify.com/docs`
+# Leapla Docs: before you touch anything
 
-# Documentation project instructions
+This repository is the user documentation of Leapla (docs.leapla.co), built with Mintlify (theme "maple", like docs.macro.com), chosen by Seppe on 2 November 2026. The app itself lives in `seprey/leapla`. Seppe, the owner, can not read code: talk to him in Dutch, short and plain.
 
-## About this project
+## Rules
 
-- This is a documentation site built on [Mintlify](https://mintlify.com)
-- Pages are MDX files with YAML frontmatter
-- Configuration lives in `docs.json`
-- Use the Mintlify MCP server, `https://mcp.mintlify.com`, to edit content and settings via MCP
-- Use the Mintlify docs MCP server, `https://www.mintlify.com/docs/mcp`, to query information about using Mintlify via MCP
+- **This repository is public.** Only text for users goes here: never internal notes, plans, code paths, keys, customer data or anything from `docs/` of `seprey/leapla`.
+- **Everything on `main` is published by Mintlify at once.** Work on a branch; `main` only with Seppe's yes.
+- **A new or changed feature of the app updates its page here** (agreed with Seppe on 2 November 2026). Describe only what exists; what is planned is marked **Binnenkort** in a `<Warning>` or `<Note>`.
+- Before a commit: `npx mint@4.2.1063 validate` and `npx mint@4.2.1063 broken-links`, both clean. Preview: `npx mint@4.2.1063 dev` (http://localhost:3000).
 
-## Terminology
+## Writing
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+- Dutch, informal "je". Short sentences, one idea per sentence.
+- Bold for what is on the screen: klik op **Instellingen**.
+- Every page has `title`, `description` and a Lucide `icon` in its front matter.
+- The order of the menu is in `docs.json`, under `navigation.languages[0].groups`.
 
-## Style preferences
+## Terms
 
-{/* Add any project-specific style rules below */}
-
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
-
-## Content boundaries
-
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- **Wereld**: Persoonlijk, a company, or a shared workspace. **Gedeelde werkruimte**, not "space". **Apla** is the assistant. **Persoonlijk Plus** is the paid personal plan.

@@ -1,55 +1,26 @@
-# Mintlify Starter Kit
+# Leapla Docs
 
-Use the starter kit to get your docs deployed and ready to customize.
+De handleiding van Leapla, voor wie de app gebruikt: docs.leapla.co. Gemaakt met [Mintlify](https://mintlify.com), thema Maple, zoals docs.macro.com.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+| Bestand | Pagina |
+|---|---|
+| `index.mdx` | Welkom |
+| `aan-de-slag.mdx` | Aan de slag |
+| `onderdelen/<naam>.mdx` | Home, Inbox, Taken, Agenda, Geld, Papieren, Docs, Gedeeld, Apla |
+| `docs.json` | Naam, kleuren, lettertype (Sora), menu |
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+**Deze repo is openbaar.** Er komt alleen tekst voor gebruikers in, nooit interne notities.
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+**Afspraak (2 november 2026):** bij elke nieuwe of veranderde functie van de app wordt de pagina hier mee bijgewerkt. Wat nog niet bestaat, staat er als "Binnenkort".
 
-## AI-assisted writing
-
-Set up your AI coding tool to work with Mintlify:
-
-```bash
-npx skills add https://mintlify.com/docs
-```
-
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
-
-See the [AI tools guides](/ai-tools) for tool-specific setup.
-
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+## Lokaal bekijken
 
 ```
-npm i -g mint
+npx mint@4.2.1063 dev
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+Dan op http://localhost:3000. Nakijken voor een commit: `npx mint@4.2.1063 validate` en `npx mint@4.2.1063 broken-links`.
 
-```
-mint dev
-```
+## Live
 
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+Mintlify publiceert wat op `main` staat. Daarom: werken op een tak, en naar `main` pas met het akkoord van Seppe.
