@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "Leapla",
-  "description": "Hoe Leapla werkt: je dag, je bedrijf en wat je deelt, op één plek.",
+  "description": "How Leapla works: your day, your business and what you share, in one place.",
   "colors": {
     "primary": "#111111",
     "light": "#F2F2F2",
@@ -31,45 +31,6 @@
   "navigation": {
     "languages": [
       {
-        "language": "nl",
-        "navbar": {
-          "links": [
-            {
-              "label": "leapla.co",
-              "href": "https://leapla.co"
-            }
-          ],
-          "primary": {
-            "type": "button",
-            "label": "Open de app",
-            "href": "https://app.leapla.co"
-          }
-        },
-        "groups": [
-          {
-            "group": "Begin hier",
-            "pages": [
-              "index",
-              "getting-started"
-            ]
-          },
-          {
-            "group": "Onderdelen",
-            "pages": [
-              "features/home",
-              "features/inbox",
-              "features/tasks",
-              "features/calendar",
-              "features/money",
-              "features/papers",
-              "features/docs",
-              "features/shared",
-              "features/apla"
-            ]
-          }
-        ]
-      },
-      {
         "language": "en",
         "navbar": {
           "links": [
@@ -88,22 +49,61 @@
           {
             "group": "Start here",
             "pages": [
-              "en/index",
-              "en/getting-started"
+              "index",
+              "getting-started"
             ]
           },
           {
             "group": "Features",
             "pages": [
-              "en/features/home",
-              "en/features/inbox",
-              "en/features/tasks",
-              "en/features/calendar",
-              "en/features/money",
-              "en/features/papers",
-              "en/features/docs",
-              "en/features/shared",
-              "en/features/apla"
+              "features/home",
+              "features/inbox",
+              "features/tasks",
+              "features/calendar",
+              "features/money",
+              "features/papers",
+              "features/docs",
+              "features/shared",
+              "features/apla"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "nl",
+        "navbar": {
+          "links": [
+            {
+              "label": "leapla.co",
+              "href": "https://leapla.co"
+            }
+          ],
+          "primary": {
+            "type": "button",
+            "label": "Open de app",
+            "href": "https://app.leapla.co"
+          }
+        },
+        "groups": [
+          {
+            "group": "Begin hier",
+            "pages": [
+              "nl/index",
+              "nl/getting-started"
+            ]
+          },
+          {
+            "group": "Onderdelen",
+            "pages": [
+              "nl/features/home",
+              "nl/features/inbox",
+              "nl/features/tasks",
+              "nl/features/calendar",
+              "nl/features/money",
+              "nl/features/papers",
+              "nl/features/docs",
+              "nl/features/shared",
+              "nl/features/apla"
             ]
           }
         ]
@@ -113,43 +113,43 @@
   "redirects": [
     {
       "source": "/aan-de-slag",
-      "destination": "/getting-started"
+      "destination": "/nl/getting-started"
     },
     {
       "source": "/onderdelen/home",
-      "destination": "/features/home"
+      "destination": "/nl/features/home"
     },
     {
       "source": "/onderdelen/inbox",
-      "destination": "/features/inbox"
+      "destination": "/nl/features/inbox"
     },
     {
       "source": "/onderdelen/taken",
-      "destination": "/features/tasks"
+      "destination": "/nl/features/tasks"
     },
     {
       "source": "/onderdelen/agenda",
-      "destination": "/features/calendar"
+      "destination": "/nl/features/calendar"
     },
     {
       "source": "/onderdelen/geld",
-      "destination": "/features/money"
+      "destination": "/nl/features/money"
     },
     {
       "source": "/onderdelen/papieren",
-      "destination": "/features/papers"
+      "destination": "/nl/features/papers"
     },
     {
       "source": "/onderdelen/docs",
-      "destination": "/features/docs"
+      "destination": "/nl/features/docs"
     },
     {
       "source": "/onderdelen/gedeeld",
-      "destination": "/features/shared"
+      "destination": "/nl/features/shared"
     },
     {
       "source": "/onderdelen/apla",
-      "destination": "/features/apla"
+      "destination": "/nl/features/apla"
     }
   ],
   "navbar": {
